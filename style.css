@@ -3,9 +3,13 @@ body {
   font-family: roboto, Sans-Serif;
   height: 200vh;
 }
-.header {
+.header_color {
   background-color: #1f2937;
-  padding: 15px 200px 100px;
+}
+.header {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px 0 120px;
 }
 .under_logo {
   margin-top: 80px;
@@ -25,7 +29,7 @@ body {
   font-size: 24px;
   color: #f9faf8;
   font-weight: bold;
-  margin-right: 385px;
+  margin-right: 580px;
 }
 .header p {
   color: #b1b5bb;
