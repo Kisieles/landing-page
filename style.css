@@ -22,8 +22,13 @@ body {
 .header_links {
   display: flex;
 }
-.header_links p {
+.header_links a {
   margin-right: 20px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+.header_links a:hover {
+  color: hsl(216, 7%, 55%);
 }
 #header_logo {
   font-size: 24px;
@@ -31,8 +36,9 @@ body {
   font-weight: bold;
   margin-right: 580px;
 }
-.header p {
-  color: #b1b5bb;
+.header p,
+.header a {
+  color: hsl(216, 7%, 71%);
   font-size: 18px;
   margin-top: 3px;
   margin-bottom: 10px;
@@ -58,11 +64,16 @@ body {
   color: white;
 }
 button {
-  background-color: #3882f6;
+  background-color: hsl(217, 91%, 59%);
   color: white;
   font-size: 17px;
   font-weight: bold;
   border-radius: 7px;
   border: none;
   padding: 8px 30px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+button:hover {
+  background-color: hsl(217, 91%, 45%);
 }
