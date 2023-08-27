@@ -63,7 +63,7 @@ body {
   text-align: center;
   color: white;
 }
-button {
+.header_button {
   background-color: hsl(217, 91%, 59%);
   color: white;
   font-size: 17px;
@@ -95,6 +95,7 @@ button:hover {
 .illustration p {
   width: 170px;
   text-align: center;
+  color: hsl(216, 7%, 35%);
 }
 .illustration div {
   width: 170px;
@@ -124,4 +125,36 @@ button:hover {
   text-align: end;
   font-weight: 700;
   margin: 0 100px 0 0;
+}
+.call_section {
+  background-color: #3882f6;
+  max-width: 950px;
+  margin: auto;
+  border-radius: 10px;
+  padding: 50px 120px;
+  display: flex;
+  margin-top: 100px;
+}
+.call_section h5 {
+  color: white;
+  font-size: 25px;
+  margin: 0;
+}
+.call_section p {
+  margin: 5px 0 0 0;
+  color: hsl(216, 7%, 85%);
+  font-size: 18px;
+}
+.call_button {
+  margin-left: 300px;
+  margin-top: 15px;
+  background-color: #3882f6;
+  color: white;
+  border: solid 2px white;
+  border-radius: 7px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px 35px;
+  cursor: pointer;
+  transition: 0.25s;
 }
