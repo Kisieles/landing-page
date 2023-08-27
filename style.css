@@ -1,7 +1,6 @@
 body {
   margin: 0;
   font-family: roboto, Sans-Serif;
-  height: 200vh;
 }
 .header_section {
   background-color: #1f2937;
@@ -157,4 +156,14 @@ button:hover {
   padding: 5px 35px;
   cursor: pointer;
   transition: 0.25s;
+}
+footer {
+  background-color: #1f2937;
+  margin-top: 100px;
+  height: 100px;
+  color: #e5e7eb;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
